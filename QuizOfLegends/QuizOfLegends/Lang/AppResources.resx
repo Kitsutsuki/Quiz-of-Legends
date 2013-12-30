@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>Quiz Of Legends</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="FindChampion" xml:space="preserve">
+    <value>Find the Champion</value>
+  </data>
+  <data name="FindSkills" xml:space="preserve">
+    <value>Find the Skills</value>
+  </data>
+  <data name="GameModes" xml:space="preserve">
+    <value>Games Modes</value>
+  </data>
+  <data name="MCQ" xml:space="preserve">
+    <value>MCQ</value>
+  </data>
+  <data name="MCQ_Q1" xml:space="preserve">
+    <value>What ressource allows Aatrox to use his skills ?</value>
+  </data>
+  <data name="MCQ_Q10" xml:space="preserve">
+    <value>With whom does Aatrox share the same skin ?</value>
+  </data>
+  <data name="MCQ_Q10_A" xml:space="preserve">
+    <value>Kha'zix</value>
+  </data>
+  <data name="MCQ_Q10_B" xml:space="preserve">
+    <value>Nocturne</value>
+  </data>
+  <data name="MCQ_Q10_C" xml:space="preserve">
+    <value>Elise</value>
+  </data>
+  <data name="MCQ_Q10_D" xml:space="preserve">
+    <value>Syndra</value>
+  </data>
+  <data name="MCQ_Q10_R" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="MCQ_Q1_A" xml:space="preserve">
+    <value>Mana</value>
+  </data>
+  <data name="MCQ_Q1_B" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="MCQ_Q1_C" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="MCQ_Q1_D" xml:space="preserve">
+    <value>Nothing</value>
+  </data>
+  <data name="MCQ_Q1_R" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="MCQ_Q2" xml:space="preserve">
+    <value>What is the maximum attack speed bonus Aatrox can earn thanks to the passive of Blood Well ?</value>
+  </data>
+  <data name="MCQ_Q2_A" xml:space="preserve">
+    <value>35%</value>
+  </data>
+  <data name="MCQ_Q2_B" xml:space="preserve">
+    <value>40%</value>
+  </data>
+  <data name="MCQ_Q2_C" xml:space="preserve">
+    <value>45%</value>
+  </data>
+  <data name="MCQ_Q2_D" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="MCQ_Q2_R" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="MCQ_Q3" xml:space="preserve">
+    <value>How much life does Aatrox lose when he uses Dark flight ?</value>
+  </data>
+  <data name="MCQ_Q3_A" xml:space="preserve">
+    <value>5%</value>
+  </data>
+  <data name="MCQ_Q3_B" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="MCQ_Q3_C" xml:space="preserve">
+    <value>15%</value>
+  </data>
+  <data name="MCQ_Q3_D" xml:space="preserve">
+    <value>20%</value>
+  </data>
+  <data name="MCQ_Q3_R" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="MCQ_Q4" xml:space="preserve">
+    <value> What's the ratio's type on Aatrox's Blade of Torment ?</value>
+  </data>
+  <data name="MCQ_Q4_A" xml:space="preserve">
+    <value>AD</value>
+  </data>
+  <data name="MCQ_Q4_B" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="MCQ_Q4_C" xml:space="preserve">
+    <value>AD &amp; AP</value>
+  </data>
+  <data name="MCQ_Q4_D" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="MCQ_Q4_R" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="MCQ_Q5" xml:space="preserve">
+    <value>What key do you need to push to use Aatrox's Blood Price ?</value>
+  </data>
+  <data name="MCQ_Q5_A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="MCQ_Q5_B" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="MCQ_Q5_C" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="MCQ_Q5_D" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="MCQ_Q5_R" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="MCQ_Q6" xml:space="preserve">
+    <value>Who says : "This battle will be my Masterpiece" ?</value>
+  </data>
+  <data name="MCQ_Q6_A" xml:space="preserve">
+    <value>Aatrox</value>
+  </data>
+  <data name="MCQ_Q6_B" xml:space="preserve">
+    <value>Mordekaiser</value>
+  </data>
+  <data name="MCQ_Q6_C" xml:space="preserve">
+    <value>Rengar</value>
+  </data>
+  <data name="MCQ_Q6_D" xml:space="preserve">
+    <value>Draven</value>
+  </data>
+  <data name="MCQ_Q6_R" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="MCQ_Q7" xml:space="preserve">
+    <value>Who says : "Fight as a hero or die as a coward" ?</value>
+  </data>
+  <data name="MCQ_Q7_A" xml:space="preserve">
+    <value>Aatrox</value>
+  </data>
+  <data name="MCQ_Q7_B" xml:space="preserve">
+    <value>Darius</value>
+  </data>
+  <data name="MCQ_Q7_C" xml:space="preserve">
+    <value>Olaf</value>
+  </data>
+  <data name="MCQ_Q7_D" xml:space="preserve">
+    <value>Xin Zaho</value>
+  </data>
+  <data name="MCQ_Q7_R" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="MCQ_Q8" xml:space="preserve">
+    <value>Who says : "Peace is the greattest of all lies" ?</value>
+  </data>
+  <data name="MCQ_Q8_A" xml:space="preserve">
+    <value>Hecarim</value>
+  </data>
+  <data name="MCQ_Q8_B" xml:space="preserve">
+    <value>Varus</value>
+  </data>
+  <data name="MCQ_Q8_C" xml:space="preserve">
+    <value>Aatrox</value>
+  </data>
+  <data name="MCQ_Q8_D" xml:space="preserve">
+    <value>Xerath</value>
+  </data>
+  <data name="MCQ_Q8_R" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="MCQ_Q9" xml:space="preserve">
+    <value>Who's Aatrox's Nemesis ?</value>
+  </data>
+  <data name="MCQ_Q9_A" xml:space="preserve">
+    <value>Darius</value>
+  </data>
+  <data name="MCQ_Q9_B" xml:space="preserve">
+    <value>Viktor</value>
+  </data>
+  <data name="MCQ_Q9_C" xml:space="preserve">
+    <value>Tryndamere</value>
+  </data>
+  <data name="MCQ_Q9_D" xml:space="preserve">
+    <value>Thresh</value>
+  </data>
+  <data name="MCQ_Q9_R" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="NewGame" xml:space="preserve">
+    <value>New Game</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+</root>

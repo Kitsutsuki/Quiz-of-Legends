@@ -1,0 +1,20 @@
+Liste des documents à créer pour le quizz lol.
+
+
+Un flowchart du menu et des différents mode de jeu.
+
+Un tableau pour chaque mode de jeu répertoriant les questions (en français et en anglais), les différents choix et les réponses.
+
+Un dossier comprenant les artworks (base + skin) de chaque perso (un dossier par perso avec le nom du perso en guise de dossier).
+
+Un flowchart sur le système de points/rang.
+
+
+
+
+Liste des modes de jeu :
+
+- Classique
+- Time Attack (répondre à un maximum de questions dans la limite du temps imparti (1, 3 ou 5 minutes)
+- Survival (combien de bonnes réponses le joueur peut donner avant d'en donner une mauvaise)
+
